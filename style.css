@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --rosa-claro: #e1b5b0;
+    --rosa-queimado: #9f5464;
+    --azul-escuro: #4299be;
+    --azul-claro: #83c0d9;
+    --cinza: #32344a;
+}
+
+header{
+    font-family: 'Mooli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background: var(--rosa-claro);
+}
+
+header a{
+    color: var(--cinza);
+}
+
+.imagem img{
+    width: 100%;
+    opacity: .65;
+    position: absolute;
+    height: 32rem;
+}
+
+.centro h1{
+    position: relative;
+    font-size: 4rem;
+    color: var(--rosa-queimado);
+}
+
+.texto{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.depoisCentro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.depoisCentro img{
+    position: relative;
+    height: 10rem;   
+    border: .2rem solid var(--azul-escuro);
+}
+
+.containerTexto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem 5rem;
+}
+
+.containerTexto p{
+    padding-bottom: .5rem;
+}
+
+.imagemCentro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemCentro img{
+    width: 45rem;
+}
+
+.imagemFinal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 0;
+    gap: .5rem;
+}
+
+.imagemFinal img{
+    height: 20rem;
+    border: var(--rosa-queimado) solid .2rem;    
+}
+
+.textoFinal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2rem 5rem;
+    padding: 2rem;
+    border: var(--cinza) solid .2rem;
+}
+
+footer{
+    height: 5rem;
+    background: var(--rosa-queimado);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1{
+    color: var(--cinza);
+    font-size: 2rem;
+}
